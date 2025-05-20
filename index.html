@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mandelbrot Set</title>
+    <script type="module" src="main.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="container">
+    <canvas id="canvas"></canvas>
+
+    <div id="sidebar">
+        <button id="zoomIn">Zoom In</button>
+        <button id="zoomOut">Zoom Out</button>
+
+        <label for="customZoom">Zoom Factor</label>
+        <input type="text" id="customZoom" value="1.5">
+
+        <label for="iterationsCount">Iterations</label>
+        <input type="text" id="iterationsCount" value="200">
+
+        <label for="escapeBorder">Escape Border</label>
+        <input type="text" id="escapeBorder" value="2">
+        <br>
+        <button id="updateParams">Update</button>
+        <br>
+        <button id="reset">Reset</button>
+    </div>
+</div>
+</body>
+</html>

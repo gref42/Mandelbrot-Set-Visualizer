@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+}
+
+#canvas {
+    flex: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar {
+    width: 150px;
+    background-color: #eee;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pressed {
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.3);
+    transform: translateY(1px);
+    background-color: #ddd;
+}
